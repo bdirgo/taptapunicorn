@@ -16,6 +16,8 @@
 		E64AF79F245CB8A600BA2254 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E64AF79D245CB8A600BA2254 /* LaunchScreen.storyboard */; };
 		E64AF7AA245CB8A600BA2254 /* TapTapUnicornTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64AF7A9245CB8A600BA2254 /* TapTapUnicornTests.swift */; };
 		E64AF7B5245CB8A600BA2254 /* TapTapUnicornUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64AF7B4245CB8A600BA2254 /* TapTapUnicornUITests.swift */; };
+		E64AF7C7245CD4AA00BA2254 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64AF7C6245CD4AA00BA2254 /* GameState.swift */; };
+		E64AF7CF245CE00300BA2254 /* TapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64AF7CE245CE00300BA2254 /* TapButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		E64AF7B0245CB8A600BA2254 /* TapTapUnicornUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapTapUnicornUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E64AF7B4245CB8A600BA2254 /* TapTapUnicornUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapTapUnicornUITests.swift; sourceTree = "<group>"; };
 		E64AF7B6245CB8A600BA2254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E64AF7C6245CD4AA00BA2254 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		E64AF7CE245CE00300BA2254 /* TapButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				E64AF78F245CB8A300BA2254 /* AppDelegate.swift */,
 				E64AF791245CB8A300BA2254 /* SceneDelegate.swift */,
 				E64AF796245CB8A300BA2254 /* ContentView.swift */,
+				E64AF7C6245CD4AA00BA2254 /* GameState.swift */,
+				E64AF7CE245CE00300BA2254 /* TapButton.swift */,
 				E64AF798245CB8A600BA2254 /* Assets.xcassets */,
 				E64AF79D245CB8A600BA2254 /* LaunchScreen.storyboard */,
 				E64AF7A0245CB8A600BA2254 /* Info.plist */,
@@ -270,6 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E64AF7C7245CD4AA00BA2254 /* GameState.swift in Sources */,
+				E64AF7CF245CE00300BA2254 /* TapButton.swift in Sources */,
 				E64AF795245CB8A300BA2254 /* TapTapUnicorn.xcdatamodeld in Sources */,
 				E64AF790245CB8A300BA2254 /* AppDelegate.swift in Sources */,
 				E64AF797245CB8A300BA2254 /* ContentView.swift in Sources */,
